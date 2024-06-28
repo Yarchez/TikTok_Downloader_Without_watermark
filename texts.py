@@ -1,0 +1,3 @@
+START_GIF = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGYzcGJzcTl2b2x3b2hrdHFoa3N2MncybzVmYXZ1dWQza2JrcmtqdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SxMIBMa8LGFAsaWrVt/giphy.gif"
+TEXT_ERROR_GIF = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW9sbTY2MzBoanN5MmtkdHNsYXI4bXVjZnczc2dzbzR2ZzE2cG41ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1J9RtZR8v3xegeWY/giphy.gif"
+NOT_SUBSCRIBED_TEXT = 'Чтобы я скачал для тебя видео, пожалуйста, подпишись на канал💋'
