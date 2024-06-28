@@ -323,22 +323,6 @@ async def soundcloud_sender(message: Message, state: FSMContext):
     # await state.clear()
 
 
-# def insta_sender():
-#     url = "https://fb-video-reels.p.rapidapi.com/smvd/get/all"
-#
-#     querystring = {"url": "https://www.instagram.com/reel/C7BtsUOC1HS/?igsh=MTFmcTk5bXJpb2N6eg==",
-#                    "filename": "Test video"}
-#
-#     headers = {
-#         "X-RapidAPI-Key": "f8b0f3efa2msh3e0051fb4b25903p1be705jsn3141500e3119",
-#         "X-RapidAPI-Host": "fb-video-reels.p.rapidapi.com"
-#     }
-#
-#     response = requests.get(url, headers=headers, params=querystring)
-#
-#     return response.json()['links'][0]['link']
-
-
 @router.message(F.text == 'Вернуться в начало')
 async def to_start(message: Message, state: FSMContext) -> None:
     await state.set_state(Soc.start)
