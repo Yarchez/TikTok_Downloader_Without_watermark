@@ -330,7 +330,7 @@ async def to_start(message: Message, state: FSMContext) -> None:
 
 
 # команда для проверки админом данных
-@router.message(Command('admin_tomina'))
+@router.message(Command('admin_show'))
 async def command_start_handler(message: Message) -> None:
     users = database.get_users()
     convertations = database.get_convertations()
